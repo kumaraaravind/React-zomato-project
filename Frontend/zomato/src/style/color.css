@@ -1,0 +1,199 @@
+.top {
+  background-color: red;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #707070;
+  background-color: white;
+  border-radius: 50%;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: red;
+}
+
+.restaurant {
+  position: absolute;
+  height: 35px;
+  width: 80%;
+  top: 10px;
+  right: 20px;
+  text-align: right;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.login {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.creat {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 9px;
+}
+
+.heading {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin: 20px 0;
+}
+
+.filterpanel {
+  height: 715px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: white;
+  padding: 50px;
+}
+
+.resultspanel {
+  height: 291px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.filterpanelheading {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.filterpanelsubheading {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin: 15px 0;
+}
+
+.location {
+  height: 40px;
+  width: 100%;
+  padding: 8px 16.7px 7px 18px;
+  border-radius: 3px;
+  border: 1px solid #192f60;
+}
+
+.cuisineoption {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin: 10px;
+}
+
+.uppersection {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.lowersection {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.resultimage {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.resultheading {
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.resultsubheading {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.resultaddress {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.pagination {
+  display: flex;
+  padding-left: 30%;
+}
+
+.paginationbutton {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  margin: 0 6px;
+  text-align: center;
+  border-radius: 3px;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 1220px) {
+  .resultheading, .resultsubheading, .resultaddress {
+    margin-left: 50px;
+  }
+  .lowersection {
+    padding-top: 0;
+  }
+  .lowersection, .resultaddress {
+    margin-left: 0;
+    width: 100px;
+  }
+}
+
+  
